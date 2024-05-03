@@ -17,7 +17,7 @@ $$
 \tilde{p}(\lambda^2) = \Sigma_k p_{o,k} e^{2i(\chi_{0,k}+\phi_k\cdot\lambda^2)}
 $$
 
-If you use a model other than m1, there will be an additional term for the Burn beam depolarization model: $e^{-2\sigma_k^2\lambda^4}$.
+If you use a model other than m1, there will be an additional term for the Burn beam depolarization model: $e^{-2\sigma_k^2\lambda^4}$. Many of the models I include use the Tribble depolarization term instead: $\frac{N^{-0.5}}{\sigma_\phi \lambda^2 2\sqrt2}$.
 
 ### Important
 I use an edited verion of RM-Tools for the ```/RM-Tools_/RM-Tools/RMtools_1D/do_QUfit_1D_mnest.py``` file. I have included the edited version. You must clone the RM-Tools repository into your working directory ```git clone git@github.com:CIRADA-Tools/RM-Tools.git``` and replace their ```do_QUfit_1D_mnest.py``` with mine.
