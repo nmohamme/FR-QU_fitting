@@ -19,6 +19,9 @@ $$
 
 If you use a model other than m1, there will be an additional term for the Burn beam depolarization model: $e^{-2\sigma_k^2\lambda^4}$.
 
+### Important
+If you want to run an 'anchoring' model, you have to run $$pip install .$$ within ```./QU-Fitting_depol/RM-Tools/```
+
 
 PyMultinest is the recommended sampler. To use it, one must run the following command in the terminal *before* you create the Jupyter Notebook you will run the QU-fit on:
 ```
