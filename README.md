@@ -22,8 +22,7 @@ If you use a model other than m1, there will be an additional term for the Burn 
 ### Important
 I use an edited verion of RM-Tools for the ```/RM-Tools_/RM-Tools/RMtools_1D/do_QUfit_1D_mnest.py``` file. I have included the edited version. You must clone the RM-Tools repository into your working directory ```git clone git@github.com:CIRADA-Tools/RM-Tools.git``` and replace their ```do_QUfit_1D_mnest.py``` with mine.
 
-Also,
-If you want to run an 'anchoring' model, you have to run ```pip install .``` within ```./QU-Fitting_depol/RM-Tools/```
+Then, you have to run ```pip install .``` within ```./QU-Fitting_depol/RM-Tools/``` for it to work.
 
 
 
