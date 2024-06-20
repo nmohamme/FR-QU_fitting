@@ -26,7 +26,7 @@ def model(pDict, lamSqArr_m2):
     quArr2 = pArr2 * np.exp(
         2j * (np.radians(pDict["psi02_deg"]) + pDict["RM2_radm2"] * lamSqArr_m2)
     )
-    quArr = (quArr1 + quArr2) * (pDict["N"]**(-0.5)/(pDict["sigmaRM_radm2"]*lamSqArr_m2*np.sqrt(2)))
+    quArr = (quArr1 + quArr2) * (pDict["N"]**(-0.5)/(pDict["sigmaRM_radm2"]*lamSqArr_m2*2*np.sqrt(2)))
 
     return quArr
 
